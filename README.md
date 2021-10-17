@@ -6,12 +6,13 @@ The purpose of this analysis is to predict whether applicants will be successful
 ## Results
 
 ### Data Preprocessing
-* **Target(s):** 
-    * List of variables
+* **Target:** 
+    * IS_SUCCESSFUL
 * **Features:** 
     * List of variables
 * **Variables to Remove:** 
-    * List of varaibles that aren't included in targets or features
+    * EIN
+    * NAME
     
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
