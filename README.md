@@ -6,10 +6,10 @@ The purpose of this analysis is to predict whether applicants will be successful
 ## Results
 
 ### Data Preprocessing
-* **Target(s):** Add variable(s)
+* **Target(s):** 
+    * List of variables
 * **Features:** 
     * List of variables
-    * Add feature
 * **Variables to Remove:** 
     * List of varaibles that aren't included in targets or features
     
@@ -17,6 +17,8 @@ The purpose of this analysis is to predict whether applicants will be successful
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * Were you able to achieve the target model performance?
 * What steps did you take to try and increase model performance?
+
+**Model Summary**
 ![Model Summary]()
 
 ## Summary
