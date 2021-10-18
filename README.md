@@ -9,7 +9,15 @@ The purpose of this analysis is to predict whether applicants will be successful
 * **Target:** 
     * IS_SUCCESSFUL
 * **Features:** 
-    * List of variables
+    * APPLICATION_TYPE
+    * AFFILIATION
+    * CLASSIFICATION
+    * USE_CASE
+    * ORGANIZATION
+    * STATUS
+    * INCOME_AMT
+    * SPECIAL_CONSIDERATIONS
+    * ASK_AMT
 * **Variables to Remove:** 
     * EIN
     * NAME
