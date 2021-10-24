@@ -37,20 +37,20 @@ I was not able to achieve the target model performance of 75%. I took the follow
 5. I increased the number of epochs to 500. 
 
 #### Original Model
-**Summary** 
-![Model Summary]()
+**Summary** <br/>
+![Model Summary](https://github.com/rabascoh/neural-network-charity-analysis/blob/main/Resources/Model.png)
 
-**Accuracy & Loss**
-Loss: 0.55 
-Accuracy: 0.73
+**Accuracy & Loss** <br/>
+Loss: 0.55 <br/>
+Accuracy: 0.73 <br/>
 
 #### Optimized Model
-**Summary** 
-![Optimized Model Summary]()
+**Summary** <br/>
+![Optimized Model Summary](https://github.com/rabascoh/neural-network-charity-analysis/blob/main/Resources/Model_Optimized.png)
 
-**Accuracy & Loss**
-Loss: 1.2 
-Accuracy: 0.73
+**Accuracy & Loss** <br/>
+Loss: 1.2 <br/>
+Accuracy: 0.73 <br/>
 
 ## Summary
 Both the original and the optimized models had an accuracy of 0.73 even after substantial changes to the optimized model. The loss also *increased* for the optimized model indicating that it is worse at predicting success compared ot the original model. 
