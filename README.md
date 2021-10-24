@@ -53,7 +53,7 @@ Loss: 1.2 <br/>
 Accuracy: 0.73 <br/>
 
 ## Summary
-Both the original and the optimized models had an accuracy of 0.73 even after substantial changes to the optimized model. The loss also *increased* for the optimized model indicating that it is worse at predicting success compared ot the original model. 
+Both the original and the optimized models had an accuracy of 0.73 even after substantial changes to the optimized model. The loss also *increased* for the optimized model indicating that it is worse at predicting success compared to the original model. 
 
 ### Alternative Model
 A logistic regression model could also be used to predict success. This model would allow for classification as 'successful' or 'unsuccessful' similar to the Sigmoid activation function used in the deep learning model. 
