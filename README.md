@@ -23,15 +23,37 @@ The purpose of this analysis is to predict whether applicants will be successful
     * NAME
     
 ### Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take to try and increase model performance?
+#### How many neurons, layers, and activation functions did you select for your neural network model, and why?
+* The model has three layers including the output layer. The first two layers both have 16 neurons and the output layer has one neuron. 
+* The first layer uses the ReLU activation function, the second layer uses the Sigmoid activation function and the output layer uses the Sigmoid activation function. The ouput layer uses the Sigmoid activation function to categorize whether the application is successful. 
 
-**Model Summary**
+#### Were you able to achieve the target model performance? What steps did you take to try and increase model performance?
+I was not able to achieve the target model performance of 75%. I took the following steps to try to increase the model performance. 
+1. I updated the binning thresholds for both Application Type and Classification less than 100. 
+2. I used chi square to determine what features are most predictive of success. I dropped the features that had p > 0.1 to remover the features that are least predictive of success. 
+2. I increased the number of hidden layers to four hidden layers rather than two. 
+3. I changed all activation functions in the hidden layers to ReLU because it resulted in the highest accuracy scores. 
+4. I increased the number of neurons to 500 per hidden layer. 
+5. I increased the number of epochs to 500. 
+
+#### Original Model
+**Summary** 
 ![Model Summary]()
 
+**Accuracy & Loss**
+Loss: 0.55 
+Accuracy: 0.73
+
+#### Optimized Model
+**Summary** 
+![Optimized Model Summary]()
+
+**Accuracy & Loss**
+Loss: 1.2 
+Accuracy: 0.73
+
 ## Summary
-Summarize the overall results of the deep learning model. 
+Both the original and the optimized models had an accuracy of 0.73 even after substantial changes to the optimized model. The loss also *increased* for the optimized model indicating that it is worse at predicting success compared ot the original model. 
 
 ### Alternative Model
-Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+A logistic regression model could also be used to predict success. This model would allow for classification as 'successful' or 'unsuccessful' similar to the Sigmoid activation function used in the deep learning model. 
